@@ -1,0 +1,77 @@
+.contact{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    /* position: sticky; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact form{
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    width: 60%;
+    height: 60%;
+    background-color: aliceblue;
+
+}
+
+.mb3{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 20%;
+    justify-content: space-around;
+}
+
+.mb3 label{
+    font-size: larger;
+}
+
+.mb3 input{
+    height: 30%;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 80%;
+    outline: none;
+    padding: 4px;
+    font-size: larger;
+}
+
+.msg{
+    height: 30%;
+}
+
+.msg label{
+    margin-bottom: 15px;
+}
+
+.msg textarea{
+    outline: none;
+    width: 80%;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: larger;
+    resize: none;
+}
+#btn{
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+
+}
+
+#btn #formbtn{
+    width: 30%;
+    height: 80%;
+}
